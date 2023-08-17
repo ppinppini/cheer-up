@@ -33,6 +33,11 @@
     margin-bottom: 10px;
     display: block;
 }
+.theme-coporation :last-child{
+    position: absolute;
+    top:12em;
+    left: 0px;
+}
 
 .theme-coporation > .long-button{
     position: absolute; 
