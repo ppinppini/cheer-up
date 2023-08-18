@@ -12,7 +12,7 @@ function changeImage(index) {
   buttons[index].classList.add("selected");
 
   const imageWidth = images[0].clientWidth;
-  const translateX = index === 0 ? 0 : index === 1 ? -340: -680;
+  const translateX = index === 0 ? 0 : index === 1 ? -390: -780;
   document.querySelector(
     ".image-wrapper"
   ).style.transform = `translateX(${translateX}px)`;
